@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Employee} from './models/employee';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Stock Trading';
+  today = new Date();
+  stocks = ['AAPL', 'IBM', 'GOOG', 'UBER', 'ABC', 'XYZ'];
+  employee: Employee = new Employee('Devlin', 'Duldulao', '100000');
+
 }
