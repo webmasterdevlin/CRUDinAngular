@@ -5,11 +5,8 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './mutualfunds.component.html',
   styleUrls: ['./mutualfunds.component.css']
 })
-export class MutualfundsComponent implements OnInit {
+export class MutualfundsComponent {
 
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
